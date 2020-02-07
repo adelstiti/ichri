@@ -15,9 +15,11 @@
       height: 240px;
       display: flex;
       flex-direction: column;
+      overflow: scroll;
+
     }
   
     button {
-      margin-top: 70vh;
+      margin-top: auto;
     }
   }
