@@ -1,7 +1,8 @@
-import { TOGGLE_CART_HIDDEN } from "../types";
-
+import { TOGGLE_CART_HIDDEN,ADD_ITEM } from "../types";
+import {addItemToCart} from './cartUtils'
 const initialState = {
-    hidden : true 
+    hidden : true,
+    cartItems : []
 }
 
 const cartReducer = (state = initialState,action) => {
@@ -11,7 +12,15 @@ const cartReducer = (state = initialState,action) => {
                 ...state,
                 hidden:!state.hidden
             }
-            default : return state ;
+
+        case ADD_ITEM:
+            return {
+                ...state,
+                cartItems:addItemToCart(state.cartItems,action.payload)
+            }
+
+            
+        default : return state ;
     }
 }
 
