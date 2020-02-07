@@ -1,15 +1,15 @@
-import React, { useEffect, useState,useRef } from 'react';
-import {Route,Switch} from 'react-router-dom'
+import React, { useEffect,useRef } from 'react';
+import {connect} from 'react-redux';
+import {Route,Switch, Redirect} from 'react-router-dom'
 import './App.css';
 import Home from './pages/home/Home'
 import Shop from './pages/shop/Shop'
 import Header from './components/header/Header';
 import Sign from './pages/sign/Sign';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
+import { setCurrentUser } from './redux/user/userActions';
 
-function App() {
-
-  const [currentUser, setCurrentUser] = useState(null)
+function App({setCurrentUser,currentUser}) {
 
   const unsubscribeFromAuth = useRef(null)
 
@@ -22,23 +22,27 @@ function App() {
       }
         setCurrentUser(userAuth)
     })
-    console.log(currentUser);
     return () => {
       unsubscribeFromAuth();
     };
+         // eslint-disable-next-line
   }, [])
 
   return (
     <div>
-      <Header currentUser={currentUser} />
+      <Header />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route  path='/shop' component={Shop} />
-        <Route  path='/signin' component={Sign} />
+        <Route  path='/signin' render={() => currentUser ? (<Redirect to='/' />) : (<Sign />)} />
       </Switch>
     </div>
   );
 }
+ 
+const mapStateToProps = state => ({
+  currentUser : state.user.currentUser
+});
 
-export default App;
+export default connect(mapStateToProps,{setCurrentUser})(App);
  
