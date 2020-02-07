@@ -12,7 +12,6 @@ const Shop = () => {
         const res=await fetch('/shopData')
         const data = await res.json();
          setCollections(data)
-         console.log(data)
     }
 
 
