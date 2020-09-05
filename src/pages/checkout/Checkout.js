@@ -3,10 +3,10 @@ import {connect} from 'react-redux'
 import { createStructuredSelector } from 'reselect'
 import { selectCartItems,selectCartTotal } from '../../redux/cart/cartSelectors'
 import CheckoutItem from '../../components/checkoutItem/CheckoutItem'
-import './Checkout.scss'
-import { addOrder } from '../../redux/order/orderActions'
 
-const Checkout = ({cartItems,total,addOrder}) => {
+import './Checkout.scss'
+
+const Checkout = ({cartItems,total}) => {
     return (
         <div className="checkoutPage">
             <div className="checkoutHeader"> 
@@ -15,9 +15,6 @@ const Checkout = ({cartItems,total,addOrder}) => {
                 </div>
                 <div className="checkoutBlock">
                     <span>Product</span>
-                </div>
-                <div className="checkoutBlock">
-                    <span>Description</span>
                 </div>
                 <div className="checkoutBlock">
                     <span>Quantite</span>
@@ -38,7 +35,6 @@ const Checkout = ({cartItems,total,addOrder}) => {
             <div className="total">
                 Total : ${total} 
             </div>
-            <button className='btn-dark ' onClick={() => addOrder(cartItems)}>Commander</button>
         </div>
     )
 }
@@ -48,4 +44,4 @@ const mapStateToProps = createStructuredSelector({
     total : selectCartTotal
 })
 
-export default connect(mapStateToProps,{addOrder})(Checkout)
+export default connect(mapStateToProps)(Checkout)

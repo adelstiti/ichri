@@ -6,6 +6,7 @@ import { signInWithGoogle, auth } from '../../firebase/firebase.utils';
 const SignIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('')
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -14,7 +15,7 @@ const SignIn = () => {
           setEmail('');
           setPassword('');
         } catch (error) {
-            console.log(error)
+            setError(error.message)
         }
     }
 
@@ -24,6 +25,7 @@ const SignIn = () => {
             <h2>I already have an account</h2>
             <span>Sign in with your email and password</span>
             <form onSubmit={handleSubmit}>
+                {error &&  <div className="alert alert-danger mb-1 mt-2" role="alert">{error}</div>}
                 <div className="form-group">
                     <label className="text-muted" >Email</label>
                     <input type="email" className="form-control" value={email} onChange={e => setEmail(e.target.value)} required/>

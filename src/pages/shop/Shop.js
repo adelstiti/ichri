@@ -1,7 +1,10 @@
 import React,{useEffect,useState} from 'react'
-import PreviewCollection from '../../components/PreviewCollection/PreviewCollection';
+import {Route} from 'react-router-dom'
 
-const Shop = () => {
+import CollectionsOverview from '../../components/collectionsOverview/CollectionsOverview'
+import Category from '../category/Category'
+
+const Shop = ({match}) => {
 
     const [collections, setCollections] = useState([]);
 
@@ -14,12 +17,10 @@ const Shop = () => {
          setCollections(data)
     }
 
-
     return (
         <div>
-            {collections && collections.map(({id, ...otherCollections}) => (
-                   <PreviewCollection key={id} {...otherCollections} />
-            ))}
+            <Route  exact path={`${match.path}`} component={() => <CollectionsOverview collections={collections} />} /> 
+            <Route  path={`${match.path}/:categoryId`} component={Category} />
         </div>
     )
 }

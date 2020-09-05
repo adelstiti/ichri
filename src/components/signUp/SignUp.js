@@ -10,6 +10,7 @@ const SignUp = () => {
         password : '',
         confirmPassword :''
     })
+    const [error, setError] = useState('')
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -28,7 +29,7 @@ const SignUp = () => {
             confirmPassword :''
         });
         } catch (error) {
-            console.log(error)
+            setError(error.message)
         }
     }
 
@@ -37,7 +38,7 @@ const SignUp = () => {
             <h2 className="title">I do not have a acount</h2>
             <span>Sign up with your email and password</span>
             <form>
-
+            {error &&  <div className="alert alert-danger mb-1 mt-2" role="alert">{error}</div>}
                 <div className="form-group">
                     <label className="text-muted" >Display Name</label>
                     <input type="text" className="form-control" value={user.displayName} onChange={e => setUser({...user,displayName: e.target.value})} required/>

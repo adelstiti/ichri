@@ -3,7 +3,7 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 const config =  {
-    apiKey: "AIzaSyAsMJ0PoXDeVtzDmCvot6q73ewQdId82n8",
+    apiKey: process.env.REACT_APP_KEY_FIREBASE,
     authDomain: "testichri.firebaseapp.com",
     databaseURL: "https://testichri.firebaseio.com",
     projectId: "testichri",
