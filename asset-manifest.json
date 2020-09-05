@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/ichri/static/css/main.8d397a41.chunk.css",
-    "main.js": "/ichri/static/js/main.237379fa.chunk.js",
-    "main.js.map": "/ichri/static/js/main.237379fa.chunk.js.map",
+    "main.js": "/ichri/static/js/main.eed36251.chunk.js",
+    "main.js.map": "/ichri/static/js/main.eed36251.chunk.js.map",
     "runtime-main.js": "/ichri/static/js/runtime-main.57c272fc.js",
     "runtime-main.js.map": "/ichri/static/js/runtime-main.57c272fc.js.map",
-    "static/js/2.e6c17934.chunk.js": "/ichri/static/js/2.e6c17934.chunk.js",
-    "static/js/2.e6c17934.chunk.js.map": "/ichri/static/js/2.e6c17934.chunk.js.map",
+    "static/js/2.61c83ecd.chunk.js": "/ichri/static/js/2.61c83ecd.chunk.js",
+    "static/js/2.61c83ecd.chunk.js.map": "/ichri/static/js/2.61c83ecd.chunk.js.map",
     "index.html": "/ichri/index.html",
-    "precache-manifest.c9f808898c54925934819914a4109c97.js": "/ichri/precache-manifest.c9f808898c54925934819914a4109c97.js",
+    "precache-manifest.80fba13c07315f5e0358153921db8d32.js": "/ichri/precache-manifest.80fba13c07315f5e0358153921db8d32.js",
     "service-worker.js": "/ichri/service-worker.js",
     "static/css/main.8d397a41.chunk.css.map": "/ichri/static/css/main.8d397a41.chunk.css.map",
-    "static/js/2.e6c17934.chunk.js.LICENSE": "/ichri/static/js/2.e6c17934.chunk.js.LICENSE",
+    "static/js/2.61c83ecd.chunk.js.LICENSE.txt": "/ichri/static/js/2.61c83ecd.chunk.js.LICENSE.txt",
     "static/media/crown.ed28accb.svg": "/ichri/static/media/crown.ed28accb.svg",
     "static/media/shoppingBag.30f07071.svg": "/ichri/static/media/shoppingBag.30f07071.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.57c272fc.js",
-    "static/js/2.e6c17934.chunk.js",
+    "static/js/2.61c83ecd.chunk.js",
     "static/css/main.8d397a41.chunk.css",
-    "static/js/main.237379fa.chunk.js"
+    "static/js/main.eed36251.chunk.js"
   ]
 }
