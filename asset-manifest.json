@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d52a0d2.chunk.css",
-    "main.js": "/static/js/main.ba780922.chunk.js",
-    "main.js.map": "/static/js/main.ba780922.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1f9c0018.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1f9c0018.js.map",
-    "static/js/2.cbd7da28.chunk.js": "/static/js/2.cbd7da28.chunk.js",
-    "static/js/2.cbd7da28.chunk.js.map": "/static/js/2.cbd7da28.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e0a98403579f64d3c02cf585ab30310b.js": "/precache-manifest.e0a98403579f64d3c02cf585ab30310b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2d52a0d2.chunk.css.map": "/static/css/main.2d52a0d2.chunk.css.map",
-    "static/js/2.cbd7da28.chunk.js.LICENSE": "/static/js/2.cbd7da28.chunk.js.LICENSE",
-    "static/media/crown.ed28accb.svg": "/static/media/crown.ed28accb.svg",
-    "static/media/shoppingBag.30f07071.svg": "/static/media/shoppingBag.30f07071.svg"
+    "main.css": "/ichri/static/css/main.8d397a41.chunk.css",
+    "main.js": "/ichri/static/js/main.68106a33.chunk.js",
+    "main.js.map": "/ichri/static/js/main.68106a33.chunk.js.map",
+    "runtime-main.js": "/ichri/static/js/runtime-main.57c272fc.js",
+    "runtime-main.js.map": "/ichri/static/js/runtime-main.57c272fc.js.map",
+    "static/js/2.e5fb0bf3.chunk.js": "/ichri/static/js/2.e5fb0bf3.chunk.js",
+    "static/js/2.e5fb0bf3.chunk.js.map": "/ichri/static/js/2.e5fb0bf3.chunk.js.map",
+    "index.html": "/ichri/index.html",
+    "precache-manifest.8f07bb8d5b69c66b6ecf5a1e3017120c.js": "/ichri/precache-manifest.8f07bb8d5b69c66b6ecf5a1e3017120c.js",
+    "service-worker.js": "/ichri/service-worker.js",
+    "static/css/main.8d397a41.chunk.css.map": "/ichri/static/css/main.8d397a41.chunk.css.map",
+    "static/js/2.e5fb0bf3.chunk.js.LICENSE": "/ichri/static/js/2.e5fb0bf3.chunk.js.LICENSE",
+    "static/media/crown.ed28accb.svg": "/ichri/static/media/crown.ed28accb.svg",
+    "static/media/shoppingBag.30f07071.svg": "/ichri/static/media/shoppingBag.30f07071.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f9c0018.js",
-    "static/js/2.cbd7da28.chunk.js",
-    "static/css/main.2d52a0d2.chunk.css",
-    "static/js/main.ba780922.chunk.js"
+    "static/js/runtime-main.57c272fc.js",
+    "static/js/2.e5fb0bf3.chunk.js",
+    "static/css/main.8d397a41.chunk.css",
+    "static/js/main.68106a33.chunk.js"
   ]
 }
