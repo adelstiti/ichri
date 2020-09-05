@@ -22,9 +22,9 @@
     "reselect": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "json-server": "json-server --watch db.json --port 5003",
-    "dev": "concurrently \"npm run dev\" \"npm run json-server \"",
+    "start": "concurrently \"npm run dev\" \"npm run json-server \"",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

@@ -1,6 +1,5 @@
 import React,{useEffect,useState} from 'react'
 import {Route} from 'react-router-dom'
-
 import CollectionsOverview from '../../components/collectionsOverview/CollectionsOverview'
 import Category from '../category/Category'
 
