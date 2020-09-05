@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ichri/static/css/main.8d397a41.chunk.css",
-    "main.js": "/ichri/static/js/main.eed36251.chunk.js",
-    "main.js.map": "/ichri/static/js/main.eed36251.chunk.js.map",
+    "main.js": "/ichri/static/js/main.98fca6b3.chunk.js",
+    "main.js.map": "/ichri/static/js/main.98fca6b3.chunk.js.map",
     "runtime-main.js": "/ichri/static/js/runtime-main.57c272fc.js",
     "runtime-main.js.map": "/ichri/static/js/runtime-main.57c272fc.js.map",
     "static/js/2.61c83ecd.chunk.js": "/ichri/static/js/2.61c83ecd.chunk.js",
     "static/js/2.61c83ecd.chunk.js.map": "/ichri/static/js/2.61c83ecd.chunk.js.map",
     "index.html": "/ichri/index.html",
-    "precache-manifest.80fba13c07315f5e0358153921db8d32.js": "/ichri/precache-manifest.80fba13c07315f5e0358153921db8d32.js",
+    "precache-manifest.f5602f1079fecaa0a20af07f33a47307.js": "/ichri/precache-manifest.f5602f1079fecaa0a20af07f33a47307.js",
     "service-worker.js": "/ichri/service-worker.js",
     "static/css/main.8d397a41.chunk.css.map": "/ichri/static/css/main.8d397a41.chunk.css.map",
     "static/js/2.61c83ecd.chunk.js.LICENSE.txt": "/ichri/static/js/2.61c83ecd.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.57c272fc.js",
     "static/js/2.61c83ecd.chunk.js",
     "static/css/main.8d397a41.chunk.css",
-    "static/js/main.eed36251.chunk.js"
+    "static/js/main.98fca6b3.chunk.js"
   ]
 }
