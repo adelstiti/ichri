@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "http://localhost:3000/static/css/main.8d397a41.chunk.css",
-    "main.js": "http://localhost:3000/static/js/main.71564a45.chunk.js",
-    "main.js.map": "http://localhost:3000/static/js/main.71564a45.chunk.js.map",
-    "runtime-main.js": "http://localhost:3000/static/js/runtime-main.2a7886e0.js",
-    "runtime-main.js.map": "http://localhost:3000/static/js/runtime-main.2a7886e0.js.map",
-    "static/js/2.e83662f7.chunk.js": "http://localhost:3000/static/js/2.e83662f7.chunk.js",
-    "static/js/2.e83662f7.chunk.js.map": "http://localhost:3000/static/js/2.e83662f7.chunk.js.map",
-    "index.html": "http://localhost:3000/index.html",
-    "precache-manifest.ef4140dbdb7e23b7af9d9de872fcc39e.js": "http://localhost:3000/precache-manifest.ef4140dbdb7e23b7af9d9de872fcc39e.js",
-    "service-worker.js": "http://localhost:3000/service-worker.js",
-    "static/css/main.8d397a41.chunk.css.map": "http://localhost:3000/static/css/main.8d397a41.chunk.css.map",
-    "static/js/2.e83662f7.chunk.js.LICENSE.txt": "http://localhost:3000/static/js/2.e83662f7.chunk.js.LICENSE.txt",
-    "static/media/crown.ed28accb.svg": "http://localhost:3000/static/media/crown.ed28accb.svg",
-    "static/media/shoppingBag.30f07071.svg": "http://localhost:3000/static/media/shoppingBag.30f07071.svg"
+    "main.css": "https://adelstiti.github.io/ichri/static/css/main.8d397a41.chunk.css",
+    "main.js": "https://adelstiti.github.io/ichri/static/js/main.1c0b4991.chunk.js",
+    "main.js.map": "https://adelstiti.github.io/ichri/static/js/main.1c0b4991.chunk.js.map",
+    "runtime-main.js": "https://adelstiti.github.io/ichri/static/js/runtime-main.11765094.js",
+    "runtime-main.js.map": "https://adelstiti.github.io/ichri/static/js/runtime-main.11765094.js.map",
+    "static/js/2.3b7da917.chunk.js": "https://adelstiti.github.io/ichri/static/js/2.3b7da917.chunk.js",
+    "static/js/2.3b7da917.chunk.js.map": "https://adelstiti.github.io/ichri/static/js/2.3b7da917.chunk.js.map",
+    "index.html": "https://adelstiti.github.io/ichri/index.html",
+    "precache-manifest.678996272b33689ac9909e5a7c5b87f9.js": "https://adelstiti.github.io/ichri/precache-manifest.678996272b33689ac9909e5a7c5b87f9.js",
+    "service-worker.js": "https://adelstiti.github.io/ichri/service-worker.js",
+    "static/css/main.8d397a41.chunk.css.map": "https://adelstiti.github.io/ichri/static/css/main.8d397a41.chunk.css.map",
+    "static/js/2.3b7da917.chunk.js.LICENSE.txt": "https://adelstiti.github.io/ichri/static/js/2.3b7da917.chunk.js.LICENSE.txt",
+    "static/media/crown.ed28accb.svg": "https://adelstiti.github.io/ichri/static/media/crown.ed28accb.svg",
+    "static/media/shoppingBag.30f07071.svg": "https://adelstiti.github.io/ichri/static/media/shoppingBag.30f07071.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a7886e0.js",
-    "static/js/2.e83662f7.chunk.js",
+    "static/js/runtime-main.11765094.js",
+    "static/js/2.3b7da917.chunk.js",
     "static/css/main.8d397a41.chunk.css",
-    "static/js/main.71564a45.chunk.js"
+    "static/js/main.1c0b4991.chunk.js"
   ]
 }
