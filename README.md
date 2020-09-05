@@ -4,7 +4,7 @@ A simple react app for shopping clothes | Initial Part of navigation
 
 This project was developed to improve knowledge in React.js
 
-Check out the demo : [https://adelstiti.github.io/ichriCode/](https://adelstiti.github.io/ichriCode/)
+Check out the demo : [https://adelstiti.github.io/ichri/](https://adelstiti.github.io/ichri/)
 
 You can read more about me on: [LinkedIn](https://www.linkedin.com/in/adel-stiti-9ba760158/).
 
