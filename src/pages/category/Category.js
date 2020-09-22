@@ -9,7 +9,7 @@ const Category = ({match}) => {
 
     useEffect(() => {
         const getData = async () => {
-            const res=await fetch(`/shopData?routeName=${match.params.categoryId}` )
+            const res=await fetch(`${process.env.REACT_APP_API_URL}/shopData?routeName=${match.params.categoryId}` )
             const data = await res.json();
             setItems(data[0].items)
         }

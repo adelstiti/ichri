@@ -11,7 +11,7 @@ const Shop = ({match}) => {
         getData()
     }, []);
     const getData = async () => {
-        const res=await fetch('/shopData')
+        const res=await fetch(`${process.env.REACT_APP_API_URL}/shopData`)
         const data = await res.json();
          setCollections(data)
     }
