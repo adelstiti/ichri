@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "024be1f2889b6449dc4f83fc8b2128c0",
+    "revision": "15a5af8ebecce8663237f7bd0f9c77b0",
     "url": "/ichri/index.html"
   },
   {
-    "revision": "66dbfc77d5867975898d",
-    "url": "/ichri/static/css/main.8d397a41.chunk.css"
+    "revision": "13e5bf783e38fbd565d6",
+    "url": "/ichri/static/css/main.a630e659.chunk.css"
   },
   {
     "revision": "9e68403db16adfc8c3b1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ichri/static/js/2.0bcdfedc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66dbfc77d5867975898d",
-    "url": "/ichri/static/js/main.7165540b.chunk.js"
+    "revision": "13e5bf783e38fbd565d6",
+    "url": "/ichri/static/js/main.5ec06584.chunk.js"
   },
   {
     "revision": "8b2e9a05c9d3d68e7df1",
